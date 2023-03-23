@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1> FORMULARIOS</h1>
+    <form action="" method="post" enctype="text/plain">
+     <fieldset>
+      <legend> Registro de datos</legend>
+      <label for="usuario"> Nombre de Usuario </label> 
+      <input type="text" placeholder="Usuario" maxlength="12" name="usuario" id="usuario" >  <br>
+      <lbael form="nombre"> Apellido paterno </lbael> 
+      <input type="text" placeholder="Apellido" id="nombre" maxlength="25" name="nombre"> <br>
+      <label form="Apellido">  Apellido materno</label> 
+      <input type="text" placeholder="Apellido" id="Apellido" maxlength="25" name="nombrem"> </input><br/>
+      <label for="pass"> Contraseña </label>
+      <input type="password" name="pass" id="pass" placeholder="Contraseña" required><br/><br/>
+      <label for="comenta"> Comentarios </label>
+      <textarea name="comenta" id="comenta" cols="25" rows="10"> </textarea><br/><br/>
+      <label for="correo"> E-mail</label>
+      <input type="email" name="correo" id="correo"><br/><br/>
+      <label for="fechan"> Fecha de nacimiento</label>
+      <input type="date" name="fechan" id="fechan"><br/><br/>
+      <label for="colores"> Selecciona un color </label>
+      <input type="color" name="colores" id="colores"><br/><br/>
+      <label for="registro">  Mes de registro </label>
+      <input type="month" name="registro" id="registro"><br/><br/>
+      <label for="semana"> Semanas</label>
+      <input type="week" name="semana" id="semana" required><br/><br/>
+      <label for="fyh"> Fecha y hora</label>
+      <input type="datetime-local" name="fyh" id="fyh"><br/><br/>
+      <label for="archivos"> Adjuntar archivo </label>
+      <input type="file" name="archivos" id="archivos"><br/><br/>
+      <label for="dire"> Dirección URL</label>
+      <input type="url" name="dire" id="dire"><br/><br/>
+      <label for="cantidad"> Cantidad a comprar: </label>
+      <input type="number" name="cantidad" id="cantidad"><br/><br/>
+      <label for="cal"> Califica nuestra página web</label>
+      <input type="range" name="cal" id="cal" min="1" max="10" value="7"><br/><br/>
+      <h3> Indica tus formas de pago preferidas</h3>
+      <input type="checkbox" name="tarjeta" id="tarjeta" value="tarjeta" checked>
+      <label for="tarjeta"> Tarjeta de crédito </label><br/>
+      <input type="checkbox" name="tarjetad" id="tarjetad" value="tarjetad" checked>
+      <labe for="tarjetad"> Tarjeta de débito</label><br/>
+      <input type="checkbox" name="transfer" id="transfer" value="trasnfer" checked>
+      <label for="transfer"> Pago por transferencia</label><br/>
+      <h3> Indica tu género </h3><br/>
+      <input type="radio" name="rd" id="rd" value="rd">
+      <label for="rd"> Femenino</label><br/>
+      <input type="radio" name="rd" id="rd" value="rd">
+      <label for="rd"> Masculino</label><br/>
+      <h3> Categoría de producto a buscar</h3>
+      <select size="5" multiple> 
+        <optgroup label="Alimentos">
+            <option>Lácteos</option>
+            <option>Refrigerados </option>
+            <option> Carnes</option>
+            <option> Frutas/Verduras</option>  
+        </optgroup>
+        <optgroup label="Hogar">
+            <option> Higiene personal</option>
+            <option> Belleza </option>
+            <option> Productos de limpieza</option>
+            <option> Jardinería </option>
+        </optgroup>
+      </select>
+      <input type="submit">
+     </fieldset>
+    </form>
+   
+</body>
+</html>
