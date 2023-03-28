@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(245, 213, 245);
+}
+.poetas{
+     color: rgb(87, 4, 87);
+     text-decoration: underline;
+     font-style: italic;
+     font-weight: bold;
+}
+h2{
+    color: blue;
+}
+#uno{
+    background-color: rgb(215, 236, 215);
+}
+#dos{
+    background-color: rgb(215, 236, 215);
+}
+.texto2{
+    color: green;
+}
