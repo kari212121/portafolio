@@ -1,0 +1,50 @@
+.texto{
+    display:block;
+    padding: 5px;
+    width: 200px;
+    height: 20px;
+    margin: 15px auto;
+    text-align: center;
+    background-color: pink;
+    border: 3px solid rgb(146, 1, 109);
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.texto:hover{
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 15px auto;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: 3px rgb(89, 159, 65) solid;
+   -moz-border-radius: 20px 40px 20px 40px;
+   -webkit-border-radius: 20px 40px 20px 40px;
+   border-radius: 20px 40px 20px 40px;
+   
+   text-shadow: -2px 0px 1px  rgb(9, 69, 17);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: rgb(26, 255, 0);
+    
+}
+
+.texto:active{
+    display: block;
+    width: 200px;
+    height: 45px;
+    margin: 15px auto;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    border: 3px rgb(230, 71, 255) solid;
+    -moz-border-radius: 20px 40px 20px 40px;
+    -webkit-border-radius: 20px 40px 20px 40px;
+    border-radius: 20px 40px 20px 40px;
+   text-shadow: -2px 0px 1px  rgb(170, 94, 175);
+   font-family: 'Edu NSW ACT Foundation', cursive;
+   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Oswald', sans-serif;
+    color: rgb(126, 37, 182);
+   box-shadow: 2px 10px 10px 2px grey;
+
+}
