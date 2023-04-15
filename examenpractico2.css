@@ -1,0 +1,158 @@
+body{
+   
+
+    background-image: url(color12.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ul{
+    list-style: none;
+}
+
+nav ul li p{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+li.contenedor > p
+{
+    background-color: rgb(0, 0, 0);
+}
+
+nav ul li.contenedor:hover p{
+    font-family: 'Concert One', cursive;
+    color: rgb(255, 255, 255);
+    width: 200px;
+}
+
+nav ul li.contenedor:hover .lista
+{
+       width: 230px;
+       display: block;
+}
+
+.lista{
+    display: none;
+    position: relative;
+    width: 230px;
+    background-color: black;
+}
+
+.lista p{
+    display: block;
+    text-align: left;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+#T{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+#T:hover{
+    display: block;
+    text-align: left;
+    font-family: 'Aboreto', cursive;
+    width: 200px;
+    color:rgb(210, 158, 15);
+    box-sizing: border-box;
+    background-color: rgb(122, 31, 9);
+}
+
+#P{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+#P:hover{
+    display: block;
+    color: rgb(122, 31, 9);
+    text-align: left;
+    font-family: 'Aboreto', cursive;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: rgb(210, 158, 15);
+}
+
+#Pl{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+#Pl:hover{
+    display: block;
+    text-align: left;
+    font-family: 'Aboreto', cursive;
+    width: 200px;
+    color: rgb(122, 31, 9);
+    box-sizing: border-box;
+    background-color: rgb(210, 158, 15);
+}
+
+#S
+{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 200px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+#S:hover{
+    display: block;
+    text-align: left;
+    font-family: 'Aboreto', cursive;
+    width: 200px;
+    color:rgb(210, 158, 15);
+    box-sizing: border-box;
+    background-color: rgb(122, 31, 9);
+}
+
+.contenedor p:hover
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.adidas
+{
+    display:block;
+    font-family: 'fuente_1', cursive;
+    font-size: x-large;
+    color:aliceblue;
+    margin-left: 900px;
+    margin-top: 5px;
+    position:absolute;
+    width: 300px;
+    text-align:center;
+    padding: 10px;
+    background: -moz-linear-gradient(bottom, #a50000, #e0570e, #9c4513,#cb7514);
+    background: -webkit-linear-gradient(bottom, #a50000, #ac6b0a, #4d1f02,#ce6911);
+    background: linear-gradient(bottom, #c82210, #ea9b08, #e46f08,#c32929);
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius:  10px 10px 10px 10px;
+    border-radius:  10px 10px 10px 10px;
+}
