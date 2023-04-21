@@ -1,0 +1,29 @@
+#caja
+{
+    background-color: rgb(255, 155, 155);
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 150px;
+    left: 580px;
+    text-align: center;
+}
+
+.texto
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: black;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+
+#op
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: palevioletred;
+}

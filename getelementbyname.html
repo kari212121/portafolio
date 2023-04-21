@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get element by name</title>
+    <script src="getelementbyname.js"> </script>
+    <link rel="stylesheet" href="getelementbyname.css">
+</head>
+<body>
+    <h2 align="center" id="op"> OPERACIONES MATEMÁTICAS </h2>
+    <div id="caja">
+        <form method="post" action="" enctype="text/plain">
+         <label for="num" class="texto"> Escribe un número</label><br/>
+         <input type="text" name="num" id="num"><br/><br/>
+         <label for="num1" class="texto"> Escribe un número</label><br/>
+         <input type="text" name="num1" id="num1"><br/><br/><br/>
+         <input type="button" name="boton" id="boton" value="Sumar" onclick="sumar()">
+         <input type="button" name="boton" id="boton" value="Restar" onclick="restar()">
+         <input type="button" name="boton" id="boton" value="Multiplicar" onclick="multiplicar()">
+         <input type="button" name="boton" id="boton" value="Dividir" onclick="dividir()">
+
+        </form>
+        <h2> El resultado es: </h2>
+      <p id="resultado" name="resultado"> </p>
+    </div>
+</body>
+</html>
