@@ -1,0 +1,469 @@
+*
+{
+    margin: 0;
+    text-decoration: none;
+}
+
+
+#tabla{
+    background-color: black;
+    color: whitesmoke;
+    height: 100px;
+    width: 100%;
+}
+
+#FM
+{
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    font-size: xx-large;
+    
+}
+
+#mexicanas
+{
+    background-image: linear-gradient(45deg,#1fb929 45%,#ffffff 20%,#ffffff 60%,#f31313 20%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    font-size: x-large;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#img1
+{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 800px;
+    height: 600px;
+}
+
+#inicio
+{
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Aboreto', cursive;
+}
+
+
+#tienda
+{
+    display: block;
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Aboreto', cursive;
+}
+
+
+#conoce
+{
+    color: whitesmoke;
+    font-size: small;
+    font-family: 'Aboreto', cursive;
+    letter-spacing: 2px;
+}
+
+#apoyo
+{
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Aboreto', cursive;
+}
+
+#testi
+{
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Aboreto', cursive;
+}
+
+#ayuda
+{
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Aboreto', cursive;
+    animation-name: example;
+    text-align: center;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+    from {color: rgb(244, 208, 27);}
+    to {color: rgb(230, 89, 24);}
+}
+
+#frase
+{
+    color: black;
+    font-size: x-large;
+    position: absolute;
+    right: 75px;
+    top: 400px;
+    font-family: 'Antonio', sans-serif;
+    background-image: linear-gradient(45deg,#22b12c 0%,#e61a1a 35%,#0eb757 85%,#f40909 100%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+
+#frase1
+{
+    color: black;
+    font-size: x-large;
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    left: 395px;
+    top: 850px;   
+}
+
+.img2
+{
+    width: 284px;
+    height: 300px;
+}
+
+#tabla2
+{
+    position:relative;
+    top: 210px;
+}
+
+#boton
+{
+    display: block;
+    width: 200px;
+    border: solid 3px black;
+    height: 30px;
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    top: 230px;
+    left: 620px;
+    align-content: center;
+    font-family: 'Aboreto', cursive;
+    font-size: medium;
+    text-align: center;
+}
+
+
+#boton:hover
+{
+    display: block;
+    width: 200px;
+    border: solid 3px burlywood;
+    height: 30px;
+    background-color: burlywood;
+    position: relative;
+    top: 230px;
+    left: 620px;
+    align-content: center;
+    color: black;
+    font-family: 'Aboreto', cursive;
+    font-size: medium;
+    text-align: center;
+
+}
+
+#regis
+{
+    position: relative;
+    top: 5px;
+}
+
+#mexicanos
+{
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: x-larger;
+    font-family: 'Aboreto', cursive;
+    color: whitesmoke;
+    
+}
+
+#at1
+{
+    position: absolute;
+    top: 1450px;
+    left: 50px;
+    width: 300px;
+    height: 200px;
+   
+}
+
+#at2
+{
+   position: absolute;
+   top: 1450px;
+   left: 400px;
+    width: 300px;
+    height: 200px;
+}
+
+#at3
+{
+    position: absolute;
+    top: 1450px;
+    left: 740px;
+    width: 300px;
+    height: 200px;
+}
+
+#at4
+{
+    position: absolute;
+    top: 1450px;
+    left: 1080px;
+    width: 300px;
+    height: 200px;
+}
+
+div.tabla3
+{
+    background-color: black;
+    position: absolute;
+    top: 1370px;
+    width: 100%;
+    height: 900px;
+    
+}
+
+#img3
+{
+    position: relative;
+    top: 90px;
+    left: 50px;
+    width: 400px;
+    height: 300px;
+}
+
+#img4
+{
+    position: relative;
+    top: 90px;
+    left: 95px;
+    width: 400px;
+    height: 300px;
+}
+
+#img5
+{
+    position: relative;
+    top: 90px;
+    left: 155px;
+    width: 400px;
+    height: 300px;
+}
+
+#carlos
+{
+    color: whitesmoke;
+    font-size: medium;
+    position: absolute;
+    top: 450px;
+    left: 115px;
+    font-family: 'Aboreto', cursive;
+}
+
+#gaby
+{
+    color: whitesmoke;
+    font-size: medium;
+    position: absolute;
+    top: 450px;
+    left: 565px;
+    font-family: 'Aboreto', cursive;
+}
+
+#luis
+{
+    color: whitesmoke;
+    font-size: medium;
+    position: absolute;
+    top: 450px;
+    left: 1090px;
+    font-family: 'Aboreto', cursive;
+}
+
+footer
+{
+    position: absolute;
+    top: 2500px;
+    background-color: rgb(255, 255, 255);
+    border: black 3px solid;
+    height: 200px;
+    width: 100%;
+}
+
+#redes
+{
+    font-family: 'Aboreto', cursive;
+    text-align: center;
+    color: whitesmoke;
+    font-size: medium;
+    background-color: black;
+    width: 100%;
+    height: 20px;
+    position: relative;
+}
+
+#chante
+{
+    font-family: 'Bebas Neue', cursive;
+    color: burlywood;
+    font-size: x-large;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+
+#slim
+{
+    font-family: 'Bebas Neue', cursive;
+    color: burlywood;
+    font-size: x-large;
+    position: absolute;
+    top: 76px;
+    left: 920px;
+}
+
+#insta
+{
+    width: 21px;
+    height: 21px;
+    position: relative;
+    top: 90px;
+    left: 320px;
+}
+
+#face
+{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 90px;
+    left: 350px;
+}
+
+#youtube
+{
+    width: 29px;
+    height: 29px;
+    position: relative;
+    top: 90px;
+    left: 370px;
+}
+
+#insta1
+{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 90px;
+    left: 850px;
+}
+
+#tiktok1
+{
+    width: 27px;
+    height: 27px;
+    position: relative;
+    top: 90px;
+    left: 870px;
+}
+
+#youtube1
+{
+    width: 27px;
+    height: 27px;
+    position: relative;
+    top: 90px;
+    left: 885px;
+}
+
+#face1
+{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 90px;
+    left: 900px;
+}
+
+#parrafo1
+{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 200px;
+    left: 90px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    font-family: 'Aboreto', cursive;
+    font-size: smaller;
+    background-color: burlywood;
+    border: 3px solid burlywood;
+}
+
+#parrafo2
+{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 530px;
+    left: 550px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    font-family: 'Aboreto', cursive;
+    font-size: smaller;
+    border: 3px solid burlywood;
+    background-color: burlywood;
+    text-align: center;
+}
+
+#parrafo3
+{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 530px;
+    left: 1010px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    font-family: 'Aboreto', cursive;
+    font-size: smaller;
+    border: 3px solid burlywood;
+    background-color: burlywood;
+    text-align: center;
+}
+
+#fondo
+{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+}
+
+#fondop
+{
+    font-family: 'Aboreto', cursive;
+    color: whitesmoke;
+    font-size: x-small;
+    position: relative;
+    left: 600px;
+}
+
+#blog
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: crimson;
+}
