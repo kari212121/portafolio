@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rfcdiseño.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alfa+Slab+One&family=Antonio:wght@200&family=Bebas+Neue&family=Concert+One&family=Cormorant+Garamond:wght@300&family=Dongle:wght@300&family=Edu+NSW+ACT+Foundation:wght@500&family=Josefin+Sans:wght@200&family=Josefin+Slab:ital,wght@0,600;1,500&family=Khand:wght@500&family=Oswald:wght@500&family=Raleway:wght@300&family=Staatliches&family=Teko:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Alfa+Slab+One&family=Antonio:wght@200&family=Bebas+Neue&family=Concert+One&family=Cormorant+Garamond:wght@300&family=Dongle:wght@300&family=Edu+NSW+ACT+Foundation:wght@500&family=Josefin+Sans:wght@200&family=Josefin+Slab:ital,wght@0,600;1,500&family=Khand:wght@500&family=Oswald:wght@500&family=Poiret+One&family=Raleway:wght@300&family=Staatliches&family=Teko:wght@300&display=swap" rel="stylesheet">
+<script src="rfc.js"> </script>
+    <title>RFC</title>
+</head>
+<body>
+   <h1 class="rfc" align="center"> CREA TU RFC </h1>
+        <form>
+            <label for="nombre" class="texto"> Escribe tu nombre </label><br/>
+            <input type="text" id="nombre" name="nombre" class="box"><br/><br/>
+            <label for="paterno" class="texto"> Escribe tu apellido paterno </label><br/>
+            <input type="text" id="paterno" name="paterno" class="box"><br/><br/>
+            <label for="materno" class="texto"> Escribe tu apellido materno </label><br/>
+            <input type="text" id="materno" name="materno" class="box"><br/><br/>
+            <label for="año" class="texto"> Escribe tu año de nacimiento </label><br/>
+            <input type="text" id="año" name="año" class="box"><br/><br/>
+            <label for="mes" class="texto"> Escribe tu mes de nacimiento </label><br/>
+            <input type="text" id="mes" name="mes" class="box"><br/><br/>
+            <label for="dia" class="texto"> Escribe tu día de nacimiento </label><br/>
+            <input type="text" id="dia" name="dia" class="box"><br/><br/>
+            <input type="button" value="Generar RFC" class="boton" onclick="rfc()">
+        </form>
+        <h2 class="rfc" id="r"> RESULTADO </h2>
+        <p id="resultado" name="resultado"> </p>
+       
+    
+</body>
+</html>
