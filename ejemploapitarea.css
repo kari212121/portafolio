@@ -1,0 +1,23 @@
+body{
+    margin: 20px;
+    text-align: justify;
+}
+
+
+
+.titulo{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(94, 148, 166);
+    border: 10px solid rgb(64, 154, 185);
+    padding: 30px;
+}
+
+h2{
+    color: rgb(37, 97, 117)
+}
+
+.texto
+{
+    font-size: 20px;
+}

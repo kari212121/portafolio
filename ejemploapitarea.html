@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejemploapitarea.css"> 
+    <script src="ejemploapitarea.js"> </script>
+    <title>API FORMS</title>
+</head>
+<body>
+    <h2 style="font-size: 50px;" class="titulo"> API FORMS </h2>
+    <h2> ¿QUÉ SON? </h2>
+    <p class="texto"> Los formularios web son la
+        interface más importante de todas, permiten a
+        los usuarios insertar datos, tomar
+        decisiones, comunicar información y cambiar el
+        comportamiento de una aplicación.
+        Durante los últimos años, códigos
+        personalizados y librerías fueron creados para
+        procesar formularios en el ordenador del
+        usuario.
+         </p>
+    
+         <h2> ¿PARA QUÉ SE UTILIZAN? </h2>
+         <p class="texto"> 
+            Las API Forms son una forma de interactuar 
+            con formularios web utilizando una API 
+            (Application Programming Interface) para 
+            enviar y recibir datos.
+            En lugar de interactuar manualmente con un 
+            formulario web, se puede usar una API para 
+            automatizar el proceso y enviar los datos de 
+            forma programática.
+
+            Las API Forms son útiles para una 
+            variedad de casos de uso, como:
+            Automatización de la entrada de 
+            datos. Integración de sistema. 
+            Elimina la necesidad de 
+            interactuar manualmente con 
+            formularios web.
+            Las API Forms también pueden ser 
+            utilizadas para:
+            Validación de datos. Mejora de 
+            la precisión de los datos 
+            enviados a través de formularios.
+         </p>
+
+         <h2> ¿CÓMO ES EL CÓDIGO? </h2>
+         <p class="texto">
+            El elemento más importante en un formulario 
+            es INPUT . Este elemento puede cambiar sus 
+            características gracias al atributo type 
+            (tipo). Este atributo determina qué clase de 
+            entrada es esperada desde el usuario. Los 
+            tipos disponibles hasta el momento eran el 
+            multipropósitos text (para textos en general) 
+            y solo unos pocos más específicos como 
+            password o submit.
+         </p>
+         <img src="Image 09-05-23 at 16.33.jpeg" style="width: 600px; height: 400px;">
+         <h4 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 50px;" align="center"> ALGUNOS DE LOS TIPO FORM SON </h4>
+         <h2 style="color: chocolate; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> TIPO EMAIL</h2>
+         <p class="texto"> 
+         Los elementos INPUT de tipo email se utilizan para permitir que el usuario ingrese y edite una dirección de correo electrónico o, si se especifica el atributo multiple, una lista de direcciones de correo.
+         El valor de la entrada es automáticamente validado para asegurarse que no está vacía o que el correo (o la lista de correos) introducidos están con el formato correcto antes de que el formulario puede ser enviado. Las pseudoclases :valid e :invalid son automáticamente aplicadas como corresponde para denotar visualmente si el valor actual del campo es una dirección válida de correo o no.
+         En los navegadores que no sopartan el tipo email, la entrada email se degrada para ser una entrada estándar text.
+         </p>
+         <img src="Image 09-05-23 at 17.22.jpeg" style="width: 500px; height: 40px;">
+         <h2 style="color: chocolate; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"> TIPO DATE</h2>
+         <p class="texto"> 
+         Los elementos INPUT de type="date" crean un campo de entrada que le permite al usuario introducir una fecha, que puede ser tanto como una caja de texto para validar el campo como una interfaz especial que le permite escoger una fecha.
+
+El valor resultante incluye el año, el mes y el día, pero no el tiempo. Las entradas de tipo time (en-US) y datetime-local soportan el tiempo y la fecha + el tiempo, respectivamente.
+         </p>
+         <img src="Image 09-05-23 at 17.59.jpeg" style="width: 500px; height: 200px;"> 
+
+         <h2 style="font-size: 50px;" align="center"> EJEMPLO </h2>
+         <form align="center" method="get" enctype="text/plain">
+            <label for="email" class="texto"> Ingresa tu correo electrónico</label><br/>
+            <input type="email" name="email" required size="50px" style="height: 30px;"><br/><br/>
+            <label for="date" class="texto"> Ingresa la fecha de hoy</label><br/>
+            <input type="date" name="date">
+         </form>
+</body>
+</html>
