@@ -1,0 +1,417 @@
+*
+{
+    margin: 0px;
+    text-decoration: none;
+}
+
+.contenedor{
+    list-style: none;
+}
+
+
+nav ul li p{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+li.contenedor > p
+{
+    background-color: rgb(0, 0, 0);
+}
+
+nav ul li.contenedor:hover .lista
+{
+       display: block;
+       position: absolute;
+       text-align: center;
+       top: 60px;
+       left: 810px;
+       width: 326px;
+}
+
+.lista{
+    display: none;
+    position: relative;
+    background-color: black;
+}
+
+.lista p{
+    display: block;
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+}
+
+#CS
+{
+    font-family: 'Aboreto', cursive;
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#CS:hover
+{
+    font-family: 'Aboreto', cursive;
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #2a7a2f;
+}
+
+#MC
+{
+    font-family: 'Aboreto', cursive;
+    font-size: small;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+#MC:hover
+{
+    font-family: 'Aboreto', cursive;
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #aa1f1f ;
+}
+#tabla{
+    background-color: black;
+    color: whitesmoke;
+    height: 100px;
+    width: 100%;
+}
+
+#FM
+{
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+    font-size: xx-large;
+    
+}
+
+#mexicanas
+{
+    background-image: linear-gradient(45deg,#2a7a2f 45%,#ffffff 20%,#ffffff 60%,#aa1f1f 20%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: x-large;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.caja
+{
+    width: 100%;
+}
+
+#inicio
+{
+    font-size: medium;
+    font-family: 'Aboreto', cursive;
+    color: whitesmoke;
+}
+
+
+#tienda
+{
+    display: block;
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Aboreto', cursive;
+}
+
+
+#conoce
+{
+    color: whitesmoke;
+    font-size: small;
+    font-family: 'Aboreto', cursive;
+    width: 320px;
+    letter-spacing: 2px;
+    background-color: rgb(0, 0, 0);
+    padding: 3px;
+}
+
+#conocecaja
+{
+    width: 320px;
+}
+
+#apoyo
+{
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Aboreto', cursive;
+}
+
+#testi
+{
+    color: whitesmoke;
+    font-size: medium;
+    font-family: 'Aboreto', cursive;
+}
+
+#ayuda
+{
+    color: whitesmoke;
+    font-size: 30px;  
+}
+
+#ayuda:hover{
+    color: rgb(224, 69, 41);
+}
+
+.frase1
+{
+    color: black;
+    font-size: x-large;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    margin-left: 775px;
+    margin-top: 350px;
+    background-image: linear-gradient(45deg,#22b12c 0%,#e61a1a 35%,#0eb757 85%,#f40909 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.caja1
+{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 20x;
+    width: 50%;
+    height: 80%;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    
+
+}
+
+.caja2
+{
+    width: 58%;
+    height: 20px;
+    color: black;
+    position: absolute;
+    left: 380px;
+    top: 800px;
+    font-family: 'Aboreto', cursive;
+    font-size: x-large;
+}
+
+.caja3
+{
+    width: 100%;
+    position: absolute;
+    top: 851px;
+}
+
+.pic
+{
+    width: 284.6px;
+    height: 345px;
+    
+    
+}
+
+.botonR
+{
+    width: 170px;
+    height: 30px;
+    background: black;
+    color: whitesmoke;
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    top: 1220px;
+    left: 630px;
+    padding-top: 10px;
+    border: 1px solid #000000;
+}
+
+.botonR:hover
+{
+    width: 170px;
+    height: 30px;
+    background: burlywood;
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    top: 1220px;
+    left: 630px;
+    padding-top: 10px;
+    border: 1px solid burlywood;
+    
+}
+
+.caja4
+{
+    background-color: #aa1f1f ;
+    width: 100%;
+    height: 570px;
+    position: absolute;
+    top: 1360px;
+    color: whitesmoke;
+    font-family: 'Teko', sans-serif;
+    font-size: xx-large;
+}
+
+.img2
+{
+    width: 440px;
+    height: 400px;
+    margin-top: 30px;
+    
+    }
+
+.nombres
+{
+    font-family: 'Aboreto', cursive;
+    font-size: small; 
+}
+
+
+.luis
+{
+    font-family: 'Aboreto', cursive;
+    font-size: small;
+    position: absolute;
+    top: 538px;
+    left: 1100px;
+}
+
+.caja
+{
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.caja:hover img{
+   transform: scale(1.09);
+}
+
+.caja img{
+    width: 100%;
+    height: 400px;
+    min-width: 400px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.caja7
+{
+    background-color: rgba(0, 0,0, 0.7);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    text-align: justify;
+    height: 100%;
+    color: whitesmoke;
+    transition: all .5s;
+    font-size: small;
+}
+
+.caja7 p{
+    padding: 130px 10px 20px 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: small;
+    text-align: justify;
+    
+}
+
+.caja:hover .caja7{
+    top: 0;
+}
+
+
+.icons{
+    background-color: transparent;
+}
+.icons i{
+   cursor: pointer;
+   color: whitesmoke;
+   font-size: 30px;
+}
+
+.icons .logo :first-child:hover
+{
+    color: rgb(20, 138, 211);
+}
+
+.icons .logo1 :first-child:hover
+{
+   color: rgb(242, 123, 244);
+}
+
+.icons .logo2 :first-child:hover{
+    color: rgb(255, 184, 52);
+}
+
+.icons .logo3 :first-child:hover
+{
+    color: rgb(234, 64, 64);
+}
+
+/*FOTOS DE BENIFICIARIOS CHANTE*/
+.cajachante
+{
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cajachante:hover img{
+   transform: scale(1.09);
+}
+
+.cajachante img{
+    width: 100%;
+    height: 300px;
+    min-width: 300px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.cajachante2
+{
+    background-color: rgb(0, 0,0, 0.7);
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    left: 0;
+    text-align: justify;
+    height: 50px;
+    color: whitesmoke;
+    transition: all .5s;
+    font-size: small;
+}
+
+.cajachante2 p{
+    padding: 17px 10px 0px 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: small;
+    text-align: justify;
+    position: absolute;
+    left: 15px;
+
+}
+
+.cajachante:hover .cajachante2{
+    bottom: 0;
+}
+
