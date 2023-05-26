@@ -31,7 +31,7 @@ nav ul li.contenedor:hover .lista
        position: absolute;
        text-align: center;
        top: 60px;
-       left: 810px;
+       left: 991px;
        width: 326px;
 }
 
@@ -101,7 +101,7 @@ nav ul li.contenedor:hover .lista
 
 #mexicanas
 {
-    background-image: linear-gradient(45deg,#2a7a2f 45%,#ffffff 20%,#ffffff 60%,#aa1f1f 20%);
+    background-image: linear-gradient(45deg,#2a7a2f 45%,#ffffff 10%,#ffffff 50%,#aa1f1f 5%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: x-large;
@@ -164,13 +164,14 @@ nav ul li.contenedor:hover .lista
 #ayuda
 {
     color: whitesmoke;
-    font-size: 30px;  
+    font-size: 30px;
+    animation: ayuda 4s linear infinite;
 }
 
-#ayuda:hover{
-    color: rgb(224, 69, 41);
+@keyframes ayuda {
+  from {color: rgb(231, 194, 85);}
+  to {color: rgb(239, 39, 39);}
 }
-
 .frase1
 {
     color: black;
@@ -225,9 +226,7 @@ footer{
 .pic
 {
     width: 284.6px;
-    height: 345px;
-    
-    
+    height: 345px; 
 }
 
 .botonR
@@ -242,6 +241,7 @@ footer{
     left: 630px;
     padding-top: 10px;
     border: 1px solid #000000;
+    border-radius: 30px;
 }
 
 .botonR:hover
@@ -415,3 +415,668 @@ footer{
     bottom: 0;
 }
 
+#question
+{
+    font-family: 'Sacramento', cursive; 
+    font-size: 80px; 
+    position: absolute; 
+    top: 100px; 
+    left: 200px; 
+    color: burlywood;
+}
+
+#pie
+{
+    background-color: rgb(0, 0, 0); width: 100%;height: 220px; position: relative; top: 1090px;
+}
+
+
+.FQA
+{
+    background-color: antiquewhite;
+    width: 700px;
+    height: 40px;
+    color: black;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: small;
+}
+
+.FQA2
+{
+  display: none;
+}
+
+.FQA:hover .FQA2
+{
+    display: block;
+    background-color: burlywood;
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+}
+
+.registro
+{
+     background-image: linear-gradient(45deg,#22b12c 0%,#e61a1a 35%,#0eb757 85%,#f40909 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+     font-family: 'Bebas Neue', cursive;
+     font-size: 100px;
+}
+
+.registro2
+{
+    color: #000000;
+     font-family: 'Bebas Neue', cursive;
+     font-size: 50px;
+}
+
+#cajadudas
+{
+    background-color: black; width: 100%; height: 390px; position: absolute; top: 800px;
+}
+
+
+#ingresarnombre
+{
+    font-family: 'Nunito', sans-serif;color: whitesmoke; position: relative; top: 100px; left: 430px;
+}
+
+#quejas
+{
+    font-family: 'Sacramento', cursive; font-size: 30px; position: absolute; top: 30px; color: burlywood; width: 500px; left: 500px;
+}
+
+#emoji1
+{
+    position: absolute; top: 290px; left: 660px; font-size: 40px;
+}
+
+#emoji2
+{
+    position: absolute; top: 389px; left: 830px; font-size: 40px;
+}
+
+#emoji3
+{
+    position: absolute; top: 490px; left: 1010px; font-size: 40px;
+}
+
+#emoji4
+{
+    position: absolute; top: 580px; left: 1160px; font-size: 40px;
+}
+
+#emoji5
+{
+    position: absolute; top: 680px; left: 1350px; font-size: 40px;
+}
+
+#piecarlos
+{
+    background-color: rgb(0, 0, 0); width: 100%; position: absolute; top: 4500px; height: 220px;
+}
+
+#titulocarlos
+{
+    color: whitesmoke; font-family: 'Bebas Neue', cursive; font-size: 75px; position: absolute; top: 140px; left: 850px;
+}
+
+#caja1carlos
+{
+    background-color: rgb(43, 126, 154); width: 100%; height: 400px; position: absolute; top: 1640px;
+}
+
+#quienes
+{
+    color: whitesmoke; font-family: 'Bebas Neue', cursive; width: 300px; font-size: 50px; position: relative; top: 50px; left: 200px;
+}
+
+#parrafoQ
+{
+    color: whitesmoke; font-family: 'Nunito', sans-serif; text-align: center; text-align: justify; width: 350px; position:relative; top: 50px; left: 160px; font-size: 20px;
+}
+
+#carlosfoto
+{
+    position: absolute; top: 80px; left: 700px;
+    width: 500px;
+    height: 400px;
+}
+
+#cuandoyquien
+{
+    color: rgb(0, 0, 0); font-family: 'Bebas Neue', cursive; width: 580px; font-size: 50px; position: relative; top: 200px; left: 800px;
+}
+
+#carlitosfoto
+{
+    position: absolute; top: 90px; left: 150px; border-style: groove; border-color: rgb(0, 0, 0); border-width: 5px;
+    width: 500px;
+    height: 400px;
+}
+
+#biocarlitos
+{
+    color: rgb(0, 0, 0); font-family: 'Nunito', sans-serif; text-align: center; text-align: justify; width: 300px; position:relative; top: 210px; left: 850px; font-size: 20px;
+}
+
+#caja2carlos
+{
+    width: 100%; height: 400px; position: absolute; top: 2700px; background-color: rgb(116, 55, 119);
+}
+
+#misioncarlos
+{
+    color: whitesmoke; font-family: 'Bebas Neue', cursive; width: 300px; font-size: 50px; position: relative; top: 50px; left: 200px;
+}
+
+#parrafomisioncarlos
+{
+    color: whitesmoke; font-family: 'Nunito', sans-serif; text-align: center; text-align: justify; width: 500px; position:relative; top: 70px; left: 50px; font-size: 20px;
+}
+
+#fotomisioncarlos
+{
+    position: absolute; top: 80px; left: 700px;
+    width: 600px;
+    height: 400px;
+}
+
+#ambitos
+{
+    font-family: 'Bebas Neue', cursive; font-size: 50px; position: absolute; top: 3240px; left: 600px; height: 300px;
+}
+
+#deporte
+{
+    font-family: 'Nunito Sans', sans-serif; position: absolute; top: 3620px; left: 120px;
+}
+
+#salud
+{
+    font-family: 'Nunito Sans', sans-serif; position: absolute; top: 3620px; left: 490px;
+}
+
+#ambiente
+{
+    font-family: 'Nunito Sans', sans-serif; position: absolute; top: 3620px; left: 840px;
+}
+
+#migrantes
+{
+    font-family: 'Nunito Sans', sans-serif; position: absolute; top: 3620px; left: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+   
+ #tabla
+ {
+    height: 300px;
+ }
+
+ #FM
+ {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+ }
+
+ #inicio
+ {
+    position: absolute;
+    top: 120px;
+    left: 230px;
+ }
+
+ #conoce
+ {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+ }
+
+ #tienda
+ {
+    position: absolute;
+    top: 220px;
+    left: 230px;
+ }
+
+ #ayuda
+ {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+ }
+    nav ul li.contenedor:hover .lista
+    {
+       display: block;
+       position: absolute;
+       text-align: center;
+       top: 190px;
+       left: 115px;
+       width: 290px;
+    }
+    
+   .caja1
+{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+
+.frase1{
+    margin-left: 20px;
+    font-size: 50px;
+    width: 530px;
+    margin-top: 400px;
+}
+
+.caja2
+{
+    width: 600px;
+    height: 20px;
+    color: black;
+    position: absolute;
+    left: 40px;
+    top: 800px;
+    font-family: 'Aboreto', cursive;
+    font-size: 14px;
+}
+
+.caja3
+{
+    width: 100%;
+    position: absolute;
+    top: 851px;
+    margin-left: 50px;
+}
+
+.pic
+{
+    width: 200px;
+    height: 345px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.botonR
+{
+    width: 170px;
+    height: 30px;
+    background: black;
+    color: whitesmoke;
+    font-family: 'Aboreto', cursive;
+    position: absolute;
+    top: 1700px;
+    left: 320px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+.footerF
+{
+    background-color: #000000;
+    height: 800px;
+    width: 100%;
+    
+}
+
+#pie
+{
+    position: absolute;
+    top: 1800px;
+}
+
+.imgfooter
+{
+    position: relative;
+    left: 150px;
+}
+
+.sugerencias
+{
+    position: relative;
+    top: 30px;
+    right: 150px;
+}
+
+.rights
+{
+    position: absolute;
+    top: 640px;
+    left: 140px;
+}
+
+.contacto
+{
+    position: relative;
+    top: 440px;
+    right: 500px;
+}
+
+.logo1
+{
+   position: absolute;
+   right: 800px;
+   top: 340px;
+}
+
+.logo
+{
+    position: absolute;
+   right: 840px;
+   top: 340px;
+}
+
+.logo3
+{
+    position: absolute;
+   right: 870px;
+   top: 340px;
+}
+
+.logo2
+{
+    position: absolute;
+   right: 760px;
+   top: 340px;
+}
+
+.footerC
+{
+    position: absolute;
+   right: 930px;
+   top: 330px;
+   font-size: 20;
+}
+
+.footerS
+{
+    position: absolute;
+   right: 930px;
+   top: 340px;
+   font-size: 20;
+}
+
+.fom
+{
+    background-color: blue;
+}
+
+#preguntas
+{
+    position:relative;
+    top: 2000px;
+    left: 100px;
+    width: 100px;
+}
+
+
+#uno
+{
+   position: absolute;
+   left: 110px;
+   top: 260px;
+   width: 300px;
+   height: 2000px;
+}
+
+#dos
+{
+ 
+    position: relative;
+   top: 10px;
+  right: 77px;
+   height: 30px;
+}
+
+#tres
+{
+    position: relative;
+   top: 10px;
+  right: 255px;
+   height: 30px;
+}
+
+#cuatro
+{
+    position: relative;
+   top: 10px;
+  right: 377px;
+   height: 30px;
+}
+
+#cinco
+{
+    position: relative;
+   top: 35px;
+  right: 600px;
+   height: 30px;
+}
+
+#question
+{
+    position: absolute;
+    top: 350px;
+    width: 100px;
+    left: 200px;
+}
+
+.FQA{
+    width: 300px;
+    height: 67px;
+}
+
+
+#cajadudas
+{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 1300px;
+}
+ 
+#datos
+{
+    position: relative;
+    top: 100px;
+    right: 400px;
+}
+
+#quejas
+{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+#emoji1
+{
+    position: absolute;
+    top: 550px;
+    left: 400px;
+}
+
+#emoji2
+{
+    position: absolute;
+    top: 700px;
+    left: 100px;
+}
+
+#emoji3
+{
+     position: absolute;
+    top: 860px;
+    left: 400px;
+}
+
+#emoji4
+{
+    position: absolute;
+    top: 990px;
+    left: 120px;
+}
+
+#emoji5
+{
+    position: absolute;
+    top: 1138px;
+    left: 396px;
+}
+
+#piecarlos
+{
+    position: absolute; 
+    top: 6000px; 
+}
+
+#titulocarlos
+{
+    position: absolute;
+    top: 400px;
+    font-size: 58px;
+    left: 40px;
+    color: rgb(29, 131, 213);
+}
+
+#fondocarlos
+{
+    position: absolute;
+    top: 600px;
+    height: 700px;
+}
+
+#caja1carlos
+{
+   height: 800px;
+   position: absolute;
+   top: 1200px;
+}
+
+#quienes
+{
+   position: relative;
+   top: 50px;
+   left: 96px;
+}
+
+#parrafoQ
+{
+    position: relative;
+   top: 100px;
+   left: 100px;
+}
+
+#carlosfoto
+{
+    position: relative;
+    top: 115px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+#cuandoyquien
+{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+
+#carlitosfoto
+{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+#biocarlitos
+{
+    position: absolute;
+    top: 340px;
+    left: 100px;
+}
+
+#caja2carlos
+{
+    height: 800px;
+}
+
+#misioncarlos
+{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+
+#parrafomisioncarlos
+{
+    position: relative;
+    top: 120px;
+    left: 50px;
+    width: 400px;
+}
+
+#fotomisioncarlos
+{
+    position: relative;
+    top: 130px;
+    left: 80px;
+    width: 300px;
+    height: 300px;
+}
+
+#ambitos
+{
+    position: absolute;
+    top: 3550px;
+    left: 120px;
+    font-size: 40px;
+}
+
+#A1
+{
+    position: relative;
+    margin-top: 350px;
+    margin-left: 50px;
+}
+
+#deporte
+{
+    position: absolute;
+    top: 3975px;
+    left: 220px;
+}
+
+
+
+
+
+}

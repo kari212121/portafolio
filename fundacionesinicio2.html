@@ -76,14 +76,12 @@ function califica()
         	document.getElementById("comentario").innerHTML="Estudia un poco más";
     }
 
-
-    function pdf()
-{
-    var doc = new jsPDF();
+    function Generar() {
+        var doc = new jsPDF();
 
     doc.setFontsize(40);
     doc.setTextColor(9,7,121);
-    doc.text(40,20,"Cuestionario");
+    doc.text(40,20,"DEPORTES");
     doc.setTextColor(17,122,209);
     doc.setFontsize(30);
     doc.text(50,35, "Gracias por participar ;)");
@@ -95,7 +93,7 @@ function califica()
    doc.text(20,110,"0 puntos. MAL. \r Todas tus respuestas son incorrectas");
    var string = doc.output('datauristring');
    $('iframe').attr('src',string);
-} 
+}
 </script> 
 
 
@@ -109,14 +107,14 @@ function califica()
         FUNDACIONES <h2 id="mexicanas"> MEXICANAS</h2>
     </th>
     <th width="130px"> </th>
-    <th> <a href="fundacionesinicio.html" id="inicio"> INICIO </a> </th>
+    <th> <a href="fundacionesinicio2.html" id="inicio"> INICIO </a> </th>
     <th width="50px"> </th>
-    <th> <a href="#" id="tienda"> TIENDA </a> </th>
+    <th> <a href="tienda.html" id="tienda"> TIENDA </a> </th>
     <th width="5px"> </th>
     <th id="conocecaja"> 
         <ul>
             <li class="contenedor">
-            <p id="conoce"> CONOCE  ACERCA  DE  NOSOTROS </p>
+            <p id="conoce" > CONOCE  ACERCA  DE  NOSOTROS </p>
             <div class="lista">
                 <p id="CS"> <a href="fundacioncarlos.html" style="color: whitesmoke;"> FUNDACIÓN CARLOS SLIM </a> </p>
                 <p id="MC"> <a href="fundacionmichante.html" style="color: whitesmoke;"> FUNDACIÓN MI CHANTE </a> </p>
@@ -125,13 +123,13 @@ function califica()
             </ul>
     </th>
     <th width="20px"> </th>
-    <th> <a id="apoyo" href="#"> APÓYALOS </a> </th>
-    <th width="10px"> </th>
-    <th> <a id="ayuda" href="ayuda.html"> <i class='bx bxs-help-circle' ></i> </a> </th>
+    <th> <a id="ayuda" href="ayuda2.html"> <i class='bx bxs-help-circle' ></i> </a> </th>
     </tr>
     </table>
 </nav>
-        <div>
+
+
+<div>
     <img src="deportistas.jpeg" class="caja1"> 
 </div>
         <h2 class="frase1">  LOS MEXICANOS SI SONAMOS EN GRANDE</h2>
@@ -146,7 +144,7 @@ function califica()
         <img src="F6.jpeg" class="pic">
         </div>
 
-<a href="#"> 
+<a href="registrate.html"> 
 <div class="botonR">
     <h4 align="center"> REGÍSTRATE  </h4>
 </div>
@@ -203,52 +201,53 @@ function califica()
 
 
 
-
-<h2 style="font-family: 'Aboreto', cursive; font-size: 30px; position: absolute; top:2000px; left: 400px;"> ¿QÚE TANTO SABES DEL DEPORTE EN MÉXICO?</h2>
-   <form style="position: absolute; top: 2100px; left: 300px;">
-        <div class="cuesti">
+<hr style="color: black; width: 470px; position: absolute; top: 2040px; background-color: black; height: 10px;" class="linea1">
+<hr style="color: black; width: 440px; position: absolute; top: 2040px; background-color: black; height: 10px; right: 0px;" class="linea2">
+<h2 style="font-family: 'Teko', sans-serif; font-size: 40px; position: absolute; top:2020px; left: 500px;"  class="formato" > ¿QÚE TANTO SABES DEL DEPORTE EN MÉXICO?</h2>
+   <form style="position: absolute; top: 2100px; left: 100px;">
+        <div style=" background-color: rgb(64, 170, 64); font-family: 'Teko', sans-serif; font-size: 20px; height: 900px;width: 600px;">
             
             <ul>
         
-                <li>¿EN QUE AÑO MÉXICO FUE SEDE DE LOS JUEGOS OLÍMPICOS?</li>
+                <li style="color: rgb(0, 0, 0);">¿EN QUE AÑO MÉXICO FUE SEDE DE LOS JUEGOS OLÍMPICOS?</li>
                 <input type="radio" name="r1" id="r1" value="100"/>1968<br/>
-                <input type="radio" name="r1" id="r1" value="0"/>2003<br/>
-                <input type="radio" name="r1" id="r1" value="0"/>2010<br/>
-                <input type="radio" name="r1" id="r1" value="0"/>2021<br/>
+                <input   type="radio" name="r1" id="r1" value="0"/>2003<br/>
+                <input  type="radio" name="r1" id="r1" value="0"/>2010<br/>
+                <input  type="radio" name="r1" id="r1" value="0"/>2021<br/>
                 <br/>
-                <li>¿CUANDO FUE EL PRIMER PARTIDO DE LA NFL EN MÉXICO?</li>
-                <input type="radio" name="r2" id="r2" value="0"/>2020<br/>
+                <li style="color: rgb(0, 0, 0);">¿CUANDO FUE EL PRIMER PARTIDO DE LA NFL EN MÉXICO?</li>
+                <input   type="radio" name="r2" id="r2" value="0"/>2020<br/>
                 <input type="radio" name="r2" id="r2" value="100"/>1978<br/>
-                <input type="radio" name="r2" id="r2" value="0"/>1997<br/>
-                <input type="radio" name="r2" id="r2" value="0"/>2000<br/>
+                <input   type="radio" name="r2" id="r2" value="0"/>1997<br/>
+                <input  type="radio" name="r2" id="r2" value="0"/>2000<br/>
                 <br/>
-                <li>¿QUIÉN ES MEMO OCHOA?</li>
-                <input type="radio" name="r3" id="r3" value="0"/>CANTANTE<br/>
-                <input type="radio" name="r3" id="r3" value="0"/>RAPERO<br/>
-                <input type="radio" name="r3" id="r3" value="0"/>DJ<br/>
-                <input type="radio" name="r3" id="r3" value="100"/>FUTBOLISTA<br/>
+                <li style="color: rgb(0, 0, 0); ">¿QUIÉN ES MEMO OCHOA?</li>
+                <input  type="radio" name="r3" id="r3" value="0"/>CANTANTE<br/>
+                <input   type="radio" name="r3" id="r3" value="0"/>RAPERO<br/>
+                <input  type="radio" name="r3" id="r3" value="0"/>DJ<br/>
+                <input  type="radio" name="r3" id="r3" value="100"/>FUTBOLISTA<br/>
                 <br/>
-                <li>¿CÓMO SE LLAMA LA PRIMER MUJER QUE HA GANADO 6 VECES EN LOS JUEGOS OLÍMPICOS EN ESQUÍALPINO</li>
+                <li style="color: rgb(0, 0, 0);">¿CÓMO SE LLAMA LA PRIMER MUJER QUE HA GANADO 6 VECES EN LOS JUEGOS OLÍMPICOS EN ESQUÍALPINO</li>
                 <input type="radio" name="r4" id="r4" value="0"/>MONICA OCAMPO<br/>
-                <input type="radio" name="r4" id="r4" value="0"/>KARINA MENDOZA<br/>
-                <input type="radio" name="r4" id="r4" value="100"/>SARAH SCHLEPER<br/>
-                <input type="radio" name="r4" id="r4" value="0"/>JENNI RIVERA<br/>
+                <input  type="radio" name="r4" id="r4" value="0"/>KARINA MENDOZA<br/>
+                <input  type="radio" name="r4" id="r4" value="100"/>SARAH SCHLEPER<br/>
+                <input  type="radio" name="r4" id="r4" value="0"/>JENNI RIVERA<br/>
                 <br/>
-                <li>¿CUANDO SE FUNDÓ LA LIGA MX?</li>
-                <input type="radio" name="r5" id="r5" value="0"/>2000<br/>
+                <li style="color: rgb(0, 0, 0);">¿CUANDO SE FUNDÓ LA LIGA MX?</li>
+                <input  type="radio" name="r5" id="r5" value="0"/>2000<br/>
                 <input type="radio" name="r5" id="r5" value="100"/>1943<br/>
-                <input type="radio" name="r5" id="r5" value="0"/>1989<br/>
-                <input type="radio" name="r5" id="r5" value="0"/>1970<br/>
+                <input  type="radio" name="r5" id="r5" value="0"/>1989<br/>
+                <input  type="radio" name="r5" id="r5" value="0"/>1970<br/>
             </ul>
             
         </div>
-        <input type="button" value="Calificar" onclick="califica()" style="position: absolute; left: 120px; top: 710px;">
-        <input type="button" value="Generar PDF" onclick="pdf()" style="position: absolute; left: 230px; top: 710px;">
+        <input type="button" value="Calificar" onclick="califica()" style="position: absolute; left: 250px; top: 710px; background-color: black; color: whitesmoke; width: 100px; height: 50px;">
+        <input type="button" value="Generar PDF" onclick="Generar()" style="position: absolute; left: 400px; top: 710px; background-color: black; color: whitesmoke; width: 100px; height: 50px;">
         </form>
         <p></p>
-        <p id="total" style="position: absolute; top: 2900px; left: 400px; color: rgb(255, 255, 255); font-family: 'Teko', sans-serif; font-size: 30px; background-color: black; ">   </p>
-        <p id="comentario" style="position: absolute; top: 2940px; left: 400px; color: rgb(255, 255, 255); font-family: 'Teko', sans-serif; font-size: 30px; background-color: black;">   </p>
-        <iframe frameborder="0" width="600" height="500"></iframe>
+        <p id="total" style="position: absolute; top: 2900px; left: 120px; color: rgb(255, 255, 255); font-family: 'Teko', sans-serif; font-size: 20px; background-color: black; text-align: center;">   </p>
+        <p id="comentario" style="position: absolute; top: 2930px; left: 120px; color: rgb(255, 255, 255); font-family: 'Teko', sans-serif; font-size: 20px; background-color: black; text-align: center;">   </p>
+        <iframe frameborder="0" width="600px" height="500px"></iframe>
         </div>
 
 
@@ -277,38 +276,52 @@ function califica()
 
 
 
-<footer style="background-color: rgb(0, 0, 0); width: 100%; position: absolute; top: 3500px; height: 220px;">
-    <img src="Image 07-05-23 at 0.39.jpeg" style="width: 200px; height: 100px; position: relative; top: 50px;">
-   <div style="width: 200px; height: 10px; color: burlywood; font-family: 'Bebas Neue', cursive; font-size: x-large; position: absolute; top: 20px; left: 1093px;"> FUNDACIÓN MI CHANTE</div>
+<footer  style="background-color: rgb(0, 0, 0); width: 100%; position: absolute; top: 3090px; height: 220px;">
+<div class="footerF">
+    <img src="Image 07-05-23 at 0.39.jpeg" style="width: 200px; height: 100px; position: relative; top: 50px;" class="imgfooter">
+   <div style="width: 200px; height: 10px; color: burlywood; font-family: 'Bebas Neue', cursive; font-size: x-large; position: absolute; top: 20px; left: 1093px;"> <h2 class="footerC" style="width: 200px; font-size: 25px;"> FUNDACIÓN MI CHANTE </h2> </div>
      <div class="icons" style="position: absolute; left: 1120px; top: 50px;"> 
       <a href="https://www.facebook.com/FundacionMiChante" class="logo"> <i class='bx bxl-facebook'> </i> </a>
       <a href="https://www.instagram.com/fundacionmichante/" class="logo1" style="padding-right: 9px;"> <i class='bx bxl-instagram-alt' ></i> </a>
       <a href="https://www.youtube.com/@fundacionmichante8618/about" class="logo3"> <i class='bx bxl-youtube' ></i>  </a>
      </div>
     
-     <div style="width: 200px; height: 10px; color: burlywood; font-family: 'Bebas Neue', cursive; font-size: x-large; position: absolute; top: 120px; left: 1089px;"> FUNDACIÓN CARLOS SLIM</div>
+     <div style="width: 200px; height: 10px; color: burlywood; font-family: 'Bebas Neue', cursive; font-size: x-large; position: absolute; top: 120px; left: 1089px;"> <h2 class="footerS" style="width: 200px; font-size: 25px;"> FUNDACIÓN CARLOS SLIM </h2> </div>
      <div class="icons" style="position: absolute; left: 1100px; top: 150px;"> 
      <a href="https://www.facebook.com/FundacionCarlosSlim/?locale=es_LA" class="logo"> <i class='bx bxl-facebook' > </i> </a>
       <a href="https://www.instagram.com/fund_carlosslim/?hl=es" class="logo1"> <i class='bx bxl-instagram-alt' ></i> </a>
       <a href="https://www.tiktok.com/@fundacioncarlosslim" class="logo2"> <i class='bx bxl-tiktok' > </i> </a>
       <a href="https://www.youtube.com/@CEHMFundacionCarlosSlim" class="logo3"> <i class='bx bxl-youtube' ></i>  </a>
      </div>
+<div class="contacto">
 <i class='bx bxl-whatsapp' style="color: rgb(33, 126, 35); position: absolute; top: 80px; left: 660px; font-size: 30px;"></i>
 <i class='bx bxs-envelope' style="color: rgb(129, 13, 13); position: absolute; top: 110px; left: 660px; font-size: 30px;" ></i>
  <h4 style="color: whitesmoke; position: absolute; top: 50px; left: 680px; font-family: 'Aboreto', cursive; font-size: small;"> CONTACTO</h4>
  <p style="color: whitesmoke; position: absolute; top: 90px; left: 690px; font-family: 'Aboreto', cursive; font-size: small;"> 4441912806</p>
  <p style="color: whitesmoke; position: absolute; top: 120px; left: 690px; font-family: 'Aboreto', cursive; font-size: smaller;"> 179859@upslp.edu.mx</p>
-  <p style="color: whitesmoke; font-family: 'Aboreto', cursive; font-size: xx-small; position: relative; top: 75px; " align="center"> © All rights reserved 2023 <br/><br/> Diseñador web: Karina Mendoza Aguado</p>
+</div>
+ <div class="rights">
+<p style="color: whitesmoke; font-family: 'Aboreto', cursive; font-size: xx-small; position: relative; top: 75px; " align="center"> © All rights reserved 2023 <br/><br/> Diseñador web: Karina Mendoza Aguado</p>
+ </div>
+  
 
- <form method="post" action="contacto.php">
+ <form method="post" action="contacto.php" class="sugerencias">
 <label for="suge" style="color: whitesmoke; font-family: 'Aboreto', cursive;font-size: small; position: absolute; left: 300px; top: 50px;"> ENVÍANOS TUS SUGERENCIAS </label><br/>
 <textarea name="contenido" id="contenido" style="position: absolute; top: 80px; left: 305px; max-width: 170px; max-height: 30px; min-width: 170px; min-height: 30px;"></textarea>
 <input type="submit" value="Enviar" id="submit" name="submit" style="position: absolute; left: 360px; top: 130px; font-family: 'Aboreto', cursive; background-color: burlywood; color: rgb(0, 0, 0); border: 1px solid burlywood; cursor: pointer;" onclick="enviar()">
  </form>
+</div>
 </footer>
 
 
 
-
+ <script type="text/javascript">(function () {
+ var ldk = document.createElement('script');
+ ldk.type = 'text/javascript';
+ ldk.async = true;
+ ldk.src = 'https://s.cliengo.com/weboptimizer/646462401034f600326417ce/646462421034f600326417d1.js?platform=view_installation_code';
+ var s = document.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(ldk, s);
+ })();</script>
 </body> 
 </html>
